@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/cadeado.jpg" alt="">
+        <h1 id="title">Gerar senha</h1>
+        <div id="box-senha">
+            <p>
+                senha23124
+            </p>
+            <button id="btnCopy">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+        <div id="pass">
+            <div class="caract">
+                <input type="checkbox" id="inCaracters" value="check">
+                <label> Quantidade de carácteres</label>
+            </div>
+            <div id="maiuscula">    
+                <input type="checkbox" id="inMaiuscula">
+                <label for="maiuscula"> Incluir letra maiuscula</label>
+            </div>
+            <div id="minuscula">    
+                <input type="checkbox" id="inMinuscula">
+                <label for="minuscula"> Incluir letra minuscula</label>
+            </div>
+            <div id="number">    
+                <input type="checkbox" id="inNumber">
+                <label for="number"> Incluir number</label>
+            </div>
+            <div id="especial">
+                <input type="checkbox" id="inEspeciais">
+                <label for="especial"> Incluir caractere especial</label>
+            </div>
+                <input type="submit" value="Gerar senha">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
